@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> 
+  <meta http-equiv="Cache-Control" content="no-siteapp" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="apple-touch-fullscreen" content="yes" /> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+  <meta name="full-screen" content="yes" />
+  <!--UC强制全屏--> 
+  <meta name="browsermode" content="application" />
+  <!--UC应用模式--> 
+  <meta name="x5-fullscreen" content="true" />
+  <!--QQ强制全屏--> 
+  <meta name="x5-page-mode" content="app" />
+  <!--QQ应用模式--> 
+  <title>简单搜索 - Powered By Karune !</title> 
+  <meta name="keywords" content="Karune导航,Karune搜索">
+  <meta name="description" content="可能是最简洁的搜索导航，给你简单舒爽的搜索体验。">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+  <link href="css/style.css" rel="stylesheet" /> 
+  <link href="css/sousuo.css" rel="stylesheet" /> 
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2747255_3lci8rgw5pm.css" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/> 
+  <link rel="stylesheet" href="/source/css/custom.css"  media="defer" onload="this.media='all'">  <!--加载自定义文件-->
+  <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script> <!--2D看板娘-->
+  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script> <!--看板娘配置文件-->
+  <script async src="/source/js/diytitle.js"></script> <!--站点动态-->
+  <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <script src="js/xd.js"></script> 
+  <script src="//lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+ </head> 
+    <style>
+        .demo{width:360px;margin:60px auto 10px auto}
+        .demo p{padding:10px 0}
+    </style>
+</head>
+</body>
+  <div id="menu">
+   <i></i>
+  </div> 
+  <div class="list closed"> 
+   <ul>
+    <li class="title"><i class="iconfont icon-changyong"></i> 常用</li> 
+    <li><a rel="nofollow" href="http://tool.liumingye.cn/music/?page=searchPage" target="_blank"><i class="iconfont icon-xiazai1x" style="color: #8EC6FF;"></i>音乐下载</a></li> 
+    <li><a rel="nofollow" href="https://Karune.tk" target="_blank"><i class="iconfont icon-boke" style="color: #575A93;"></i>Karune博客</a></li>
+    <li><a rel="nofollow" href="https://karune.cn" target="_blank"><i class="iconfont icon-wangpan" style="color: #5FADE0;"></i>Karune网盘</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-youxiang"></i> 邮箱</li> 
+    <li><a rel="nofollow" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="iconfont icon-Gmail" style="color: #C5221F;"></i>Gmail</a></li> 
+    <li><a rel="nofollow" href="https://mail.163.com/" target="_blank"><i class="iconfont icon-wangyi" style="color: #d81e06;"></i>网易邮箱</a></li> 
+    <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank"><i class="iconfont icon-mail-qq" style="color: #1599FF;"></i>QQ邮箱</a></li> 
+    <li><a rel="nofollow" href="https://qiye.aliyun.com/" target="_blank"><i class="iconfont icon-aliyouxiang1" style="color: #E33B38;"></i>阿里邮箱</a></li> 
+    <!----> 
+    <li class="title"><i class="iconfont icon-msg"></i>社交</li> 
+    <li><a rel="nofollow" href="https://www.telegram.org" target="_blank"><i class="iconfont icon-telegram" style="color: #20B9F9;"></i>Telegram</a></li> 
+    <li><a rel="nofollow" href="https://www.twitter.com" target="_blank"><i class="iconfont icon-twiter" style="color: #1DA1F3;"></i>Twitter</a></li>
+    <li><a rel="nofollow" href="https://m.facebook.com/" target="_blank"><i class="iconfont icon-Facebook" style="color: #3b5998;"></i>Facebook</a></li>
+    <li><a rel="nofollow" href="https://line.me/ja/" target="_blank"><i class="iconfont icon-Line" style="color: #3AAE36;"></i>Line</a></li>
+    
+    <!----> 
+    <li class="title"><i class="iconfont icon-shipin"></i> 视频</li> 
+    <li><a rel="nofollow" href="https://sp.nicovideo.jp/" target="_blank"><i class="iconfont icon-niconico" style="color:#515151;"></i>ニコニコ</a></li>
+    <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><i class="iconfont icon-bilibili" style="color:#1296db;"></i>哔哩哔哩</a></li> 
+    <li><a rel="nofollow" href="http://www.acfun.cn/index.html" target="_blank"><i class="iconfont icon-acfun" style="color:#FD4C5D;"></i>ACFUN</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-sheji"></i> 设计视觉</li> 
+    <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="iconfont icon-iconfont" style="color: #D81E06;"></i>阿里图标</a></li>
+    <li><a rel="nofollow" href="https://app.brandmark.io/v3/" target="_blank"><i class="iconfont " style="color: #D81E06;"></i>图标设计</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-ai-tool"></i> 工具</li> 
+    <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank"><i class="iconfont icon-fanyi" style="color: #1E88E5;"></i>谷歌翻译</a></li> 
+    <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-PINGceshi" style="color: #FF9999;"></i>站长Ping</a></li> 
+    <!----> 
+    <li class="title"><i class="iconfont icon-ai-tool"></i> 网盘</li>
+    <li><a rel="nofollow" href="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage" target="_blank"><i class="iconfont icon-OneDrive" style="color: #28A8EA;"></i>微软网盘</a></li>
+    <li><a rel="nofollow" href="https://pan.baidu.com" target="_blank"><i class="iconfont icon-baiduwangpan" style="color: #148bfe;"></i>百度网盘</a></li> 
+    <li><a rel="nofollow" href="https://www.aliyundrive.com/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>阿里云盘</a></li>
+    <li><a rel="nofollow" href="https://app.tmp.link/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>钛盘</a></li>
+    <li><a rel="nofollow" href="https://www.wenshushu.cn/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>文叔叔</a></li>
+    <li><a rel="nofollow" href="https://cowtransfer.com/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>奶牛快传</a></li>
+    <li><a rel="nofollow" href="https://wormhole.app/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>Wormhole</a></li>
+    <li><a rel="nofollow" href="https://www.lanzou.com/" target="_blank"><i class="iconfont icon" style="color: #FF436A;"></i>蓝奏云</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-kongzhitai"></i> 开发</li> 
+    <li><a rel="nofollow" href="https://github.com/" target="_blank"><i class="iconfont icon-huaban88" style="color: #000000;"></i>Github</a></li> 
+    <li><a rel="nofollow" href="https://www.kslabs.ru/" target="_blank"><i class="iconfont " style="color: #000000;"></i>Ksweb</a></li> 
+    <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="iconfont icon-msdn_itellyou" style="color: #FFCC00;"></i>MSDN</a></li> 
+    <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><i class="iconfont icon-cloudflare" style="color: #F38020;"></i>CFcdn</a></li>
+    <li><a rel="nofollow" href="https://orangefox.download/ja-JP/device/cereus" target="_blank"><i class="iconfont icon-recovery" style="color: #d81e06;"></i>橙狐Rec</a></li> 
+    <li class="title"><i class="iconfont icon-kongzhitai"></i> 模拟器</li>
+    <li><a rel="nofollow" href="https://www.emulator-zone.com/
+" target="_blank"><i class="iconfont icon-ps2" style="color: #FFFFFF;"></i>emulator</a></li> 
+    <li><a rel="nofollow" href="https://www.epsxe.com/" target="_blank"><i class="iconfont icon-ps11" style="color: #FFFFFF;"></i>PS1</a></li> 
+    <li><a rel="nofollow" href="https://pcsx2.net/" target="_blank"><i class="iconfont icon-55-PS2ControllerFlat" style="color: #283238;"></i>PS2</a></li> 
+    <li><a rel="nofollow" href="https://www.aethersx2.com/archive/" target="_blank"><i class="iconfont icon-55-PS2ControllerFlat" style="color: #283238;"></i>PS2</a></li>
+    <li><a rel="nofollow" href="https://rpcs3.net" target="_blank"><i class="iconfont icon-ps" style="color: #003C89;"></i>PS3</a></li> 
+    <li><a rel="nofollow" href="https://pcsx4.com/" target="_blank"><i class="iconfont icon-43-PS4Flat" style="color: #38454F;"></i>PS4</a></li> 
+    <li><a rel="nofollow" href="https://xemu.app" target="_blank"><i class="iconfont icon-xbox" style="color: #107C10;"></i>xemu</a></li> 
+    <li><a rel="nofollow" href="https://xenia.jp/" target="_blank"><i class="iconfont icon-xboxone" style="color: #516C7A;"></i>xbox360</a></li> 
+    <li><a rel="nofollow" href="https://cemu.info/" target="_blank"><i class="iconfont icon-wiiu" style="color: #1296db;"></i>cemu</a></li> 
+    <li><a rel="nofollow" href="https://yuzu-emu.org/" target="_blank"><i class="iconfont icon-switch" style="color: #261D50;"></i>yuzu</a></li>
+    <li><a rel="nofollow" href="https://www.ppsspp.org/" target="_blank"><i class="iconfont icon-pspgame" style="color: #ED5564;"></i>PPSSPP</a></li>  
+    <li><a rel="nofollow" href="https://citra-emu.org/" target="_blank"><i class="iconfont icon-lemon" style="color: #FCF01A;"></i>Citra</a></li> 
+    <li><a rel="nofollow" href="https://github.com/weihuoya/citra" target="_blank"><i class="iconfont icon-lemon" style="color: #FCF01A;"></i>3DS-mmj</a></li> 
+    <li><a rel="nofollow" href="https://ja.dolphin-emu.org" target="_blank"><i class="iconfont icon-Dolphin" style="color: #1296db;"></i>Dolphin</a></li> 
+    <li><a rel="nofollow" href="https://github.com/weihuoya/dolphin" target="_blank"><i class="iconfont icon-Dolphin" style="color: #1296db;"></i>海豚-mmj</a></li> 
+    <li><a rel="nofollow" href="https://purei.org/" target="_blank"><i class="iconfont icon-play1" style="color: #1296db;"></i>play</a></li>
+    <li><a rel="nofollow" href="http://onscripter.osdn.jp/" target="_blank"><i class="iconfont icon-play" style="color: #E6507B;"></i>ONS</a></li>
+    <li><a rel="nofollow" href="https://www.retroarch.com/" target="_blank"><i class="iconfont icon-play" style="color: #E6507B;"></i>RetroArch</a></li>  
+    <li><a rel="nofollow" href="http://openemu.org/" target="_blank"><i class="iconfont icon-play" style="color: #E6507B;"></i>openemu</a></li>
+    <li><a rel="nofollow" href="https://joiplay.cyou/" target="_blank"><i class="iconfont icon-play" style="color: #E6507B;"></i>Joiplay</a></li>
+    <li><a rel="nofollow" href="https://github.com/zeas2/Kirikiroid2" target="_blank"><i class="iconfont icon-play" style="color: #E6507B;"></i>krkr2</a></li>
+    <li class="title"><i class="iconfont icon-kongzhitai"></i> 精品游戏网站</li>
+    <li><a rel="nofollow" href="https://store.steampowered.com/" target="_blank"><i class="iconfont icon-steam" style="color: #136DA0;"></i>Steam</a></li>
+    <li><a rel="nofollow" href="https://www.epicgames.com/store/ja/?lang=ja" target="_blank"><i class="iconfont icon-epic" style="color: #E333333;"></i>Epic</a></li>
+    <li><a rel="nofollow" href="https://m.3dmgame.com/" target="_blank"><i class="iconfont icon-" style="color: #136DA0;"></i>3DM</a></li>
+    <li><a rel="nofollow" href="https://wap.gamersky.com/" target="_blank"><i class="iconfont icon-" style="color: #136DA0;"></i>游民星空</a></li>
+    <li><a rel="nofollow" href="https://3g.ali213.net/" target="_blank"><i class="iconfont icon-" style="color: #136DA0;"></i>游侠</a></li>
+    <li><a rel="nofollow" href="https://www.fgame.top/" target="_blank"><i class="iconfont icon-" style="color: #136DA0;"></i>Fgame</a></li>
+    <li><a rel="nofollow" href="https://www.rpg.kim/" target="_blank"><i class="iconfont icon-" style="color: #136DA0;"></i>rpg</a></li>
+    <li><a rel="nofollow" href="https://www.oldmanemu.net/" target="_blank"><i class="iconfont icon-" style="color: #E6507B;"></i>老男人游戏网</a></li>
+    <li><a rel="nofollow" href="https://m.coolrom.com.au/" target="_blank"><i class="iconfont icon-" style="color: #E6507B;"></i>ps2游戏1</a></li>
+    <li><a rel="nofollow" href="https://romsfun.com/" target="_blank"><i class="iconfont icon-" style="color: #E6507B;"></i>ps2游戏2</a></li>
+   </ul> 
+  </div> 
+  <div id="search" class="s-search">
+   <div id="search-list" class="hide-type-list">
+    <div class="s-type">
+     <span></span>
+     <div class="s-type-list animated fadeInUp">
+      <label for="type-google">常用</label>
+      <label for="type-music">音乐</label>
+      <label for="type-search">搜索</label>
+      <label for="type-br">工具</label>
+      <label for="type-zhihu">社区</label>
+      <label for="type-快递100">生活</label>
+     </div>
+    </div>
+    <div class="search-group group-a">
+     <span class="type-text">常用</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" checked="" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌一下" /><label for="type-google"><span>谷歌</span></label></li>
+      <li><input onclick="bw()" checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" /><label for="type-baidu"><span>百度</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao" value="http://tool.liumingye.cn/music/?page=audioPage&type=migu&name=" data-placeholder="音乐搜索下载" /><label for="type-taobao"><span>音乐</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-b">
+     <span class="type-text">音乐</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-migu" value="https://netease-music.fe-mm.com/#/music/search/#/miku" data-placeholder="mmPlayer在线音乐" /><label for="type-migu"><span>mmPlayer</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-music" value="https://ssh-music.vercel.app/#/search/" data-placeholder="sshPlayer一下" /><label for="type-music"><span>sshPlayer</span></label></li>  
+     </ul>
+    </div>
+    <div class="search-group group-c">
+     <span class="type-text">搜索</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-search" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" /><label for="type-search"><span>百度</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下" /><label for="type-google"><span>Google</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360好搜" /><label for="type-360"><span>360</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索" /><label for="type-sogo"><span>搜狗</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索" /><label for="type-bing"><span>Bing</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC移动端搜索" /><label for="type-sm"><span>神马</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-d">
+     <span class="type-text">工具</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-br" value="http://rank.chinaz.com/all/" data-placeholder="请输入网址(不带http://)" /><label for="type-br"><span>权重查询</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-links" value="http://link.chinaz.com/" data-placeholder="请输入网址(不带http://)" /><label for="type-links"><span>友链检测</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带http://)" /><label for="type-icp"><span>备案查询</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-ping" value="http://ping.chinaz.com/" data-placeholder="请输入网址(不带http://)" /><label for="type-ping"><span>PING检测</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-e">
+     <span class="type-text">社区</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎" /><label for="type-zhihu"><span>知乎</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query=" data-placeholder="微信" /><label for="type-wechat"><span>微信</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-weibo" value="http://s.weibo.com/weibo/" data-placeholder="微博" /><label for="type-weibo"><span>微博</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣" /><label for="type-douban"><span>豆瓣</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q=" data-placeholder="SEO问答社区" /><label for="type-why"><span>搜外问答</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-f">
+     <span class="type-text">生活</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-快递100" value="http://www.kuaidi100.com/?" data-placeholder="快递100" /><label for="type-快递100"><span>快递100</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiachufang" value="http://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房" /><label for="type-xiachufang"><span>下厨房</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&amp;s=" data-placeholder="香哈菜谱" /><label for="type-xiangha"><span>香哈菜谱</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-12306" value="http://www.12306.cn/?" data-placeholder="12306" /><label for="type-12306"><span>12306</span></label></li>
+      <li> <input onclick="bw()" hidden="" type="radio" name="type" id="type-qunar" value="https://www.qunar.com/?" data-placeholder="去哪儿" /><label for="type-qunar"><span>去哪儿</span></label></li>
+     </ul>
+    </div>
+   </div>
+   <form action="https://www.google.com/search?q=" method="get" target="_blank" id="super-search-fm">
+    <input type="text" id="search-text" placeholder="输入关键字搜索" style="outline:0" />
+    <button type="submit"><i class="iconfont icon-search"></i></button>
+    <ul id="ul" class="ko"></ul>
+   </form>
+   <div id="yy" style="display:none;">
+    <input type="text" id="kos" placeholder="<?php echo $word; ?>" />
+    <button type="submit" id="kob"><i class="iconfont icon-xdss"></i></button>
+    <ul id="kol" class="ko"></ul>
+   </div>
+   <div class="set-check hidden-xs">
+    <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off" />
+   </div>
+  </div> 
+   <script type="text/javascript" src="js/yyss.js"></script>
+   <script type="text/javascript" src="js/sousuo.js"></script> 
+   <script type="text/javascript" src="js/lianxiang.js"></script> 
+   <script type="text/javascript" src="js/duration.js"></script>
+   <script id="xplayer" src="js/player.js" key="6246a4029d20e" m="1"></script>
+   <div class="bgo"></div>
+   <div style="position: absolute;bottom: 50px;text-align: center;width:100%;">Powered By Karune | CopyRight@copy2021</div>
+   <div style="position: absolute;bottom: 25px;text-align: center;width:100%;"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></div>
+  </body>
+</html>
+
+<!--
+网址：https://karune.tk
+github：https://github.com/Karune-SHI-E
+                Karune，started 2021.8.14 end 2021.8.17
+-->
